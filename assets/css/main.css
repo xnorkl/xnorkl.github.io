@@ -1,0 +1,100 @@
+body {
+    margin: auto;
+    width: 100%;
+    background-color:black;
+}
+nav ul{
+    font-family:'Source Code Pro', monospace;
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+footer ul {
+    font-family:'Source Code Pro', monospace;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+  
+}
+nav ul li{
+    display: inline;
+    position: relative;
+    left: 10px;
+}
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    font-family:'Source Code Pro', monospace;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #0dcdcd;  
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    margin: auto;
+    height: 5vw;
+    width: 50vh;
+    font-size: 1.5em;
+    font-family:'Source Coce Pro', cursive;
+    text-align: center;
+    color: silver;;
+}
+p {
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 1em;
+    font-family:'Source Code Pro', monospace;
+    line-height: 1.4em;
+    color: silver;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+}
+
+ul.posts li {
+    font-family:'Source Code Pro', monospace;
+    font-size: 1em;
+    list-style: none;
+    color: silver;
+}
+.post_title {
+    font-family:'Source Code Pro', monospace;
+    font-size: 1.2em;
+    list-style: none;
+    color: red;
+}
+.hero {
+    /* Sizing */
+    width: 100%;
+    height: 30%;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

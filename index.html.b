@@ -1,8 +1,0 @@
-:---
-layout: default
-title: xnorkl in the middle
----
-<div class="blurb">
-	<h1>Blog</h1>
-	<p>I'm xnorkl. I hack stuff. And I fix things when other people hack other people's things. This is my blog about stuff and things. $nbsp;<a href="/about"> Read more about my life...</a></p>
-</div><!-- /.blurb -->
